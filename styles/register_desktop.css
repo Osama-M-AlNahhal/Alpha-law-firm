@@ -1,0 +1,80 @@
+@media only screen and (min-width: 768px) {
+
+	
+
+	.registration-form label {
+		width: 30vw;
+		text-align: right;
+		padding-right: 1rem;
+	}
+	.registration-form input {
+		width: 80vw;
+	}
+
+	.double-fields {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.double-fields > .field > input {
+		width: 39vw;
+	}
+
+	.field {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+
+	}
+
+	.field > label {
+		align-self: flex-start;
+	}
+
+	.terms-and-submit-container {
+		width: 80vw;
+
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		margin-top: 1rem;
+
+		gap: 10vw;
+
+	}
+
+	.terms-and-conditions-container {
+		width: 34vw;
+	    display: flex;
+	    flex-direction: row-reverse;
+	    justify-content: center;
+	    align-items: center;
+
+	}
+
+	.register-button-container {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;
+	    align-items: center;
+	    width: 20rem;
+	}
+
+	.terms-and-conditions-container > label {
+
+	}
+
+	#register-btn {
+		width: 20rem;
+	}
+
+	#policy-label {
+		display: inline-block;
+		padding-right: 0.5rem;
+	}
+
+
+}

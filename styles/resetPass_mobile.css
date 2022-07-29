@@ -1,0 +1,148 @@
+input, select, textarea, button{
+    font-family:inherit;
+}
+
+html, body {
+	direction: rtl;
+}
+.reset-container {
+	background-color: var(--dark-clr);
+	
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+	width: 100%;
+	padding: 0rem;
+
+	max-height: 100vh;
+	min-height: 100vh;
+	overflow-y: hidden;
+
+}
+
+.reset-form {
+	margin: 0;
+	padding: 3rem;
+	padding-top: 6rem;
+	padding-bottom: 5rem;
+	width: 100%;
+	max-width: 35rem;
+	border-radius: 12px;
+	position: relative;
+
+	max-height: 100vh;
+	overflow-y: hidden;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	background-color: var(--dark-clr);
+	background-color: #353535;
+	gap: 1rem;
+
+	position: relative;
+}
+
+.reset-form-container {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	gap: 1rem;
+	margin-left: 0;
+
+
+
+}
+
+.back-btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+.back-btn {
+
+}
+
+.back-image {
+	padding: 1rem;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 12px;
+	filter: invert(100%);
+}
+
+.reset-info-text {
+	margin-bottom: 1rem;
+}
+
+.reset-info-text h2, p {
+	margin: 0;
+}
+
+.reset-info-input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1rem;
+
+	width: 100%;
+}
+
+
+
+.reset-info-input > input {
+	width: 100%; 
+	/*min of 80vw or something else*/
+	height: 3.5rem;
+	line-height: 4rem;
+	text-align: right;
+	direction: rtl;
+
+	padding-right: 2rem;
+
+	border-radius: 12px;
+
+	background-color: #fff;
+
+	border: 0;
+
+
+}
+
+
+.reset-button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 100%;
+}
+
+.reset-btn {
+	width: 100%;
+	background-color: var(--gold-clr);
+	border-radius: 15px;
+
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+
+	border: 0;
+}

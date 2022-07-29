@@ -1,0 +1,48 @@
+@media only screen and (min-width: 600px) {
+	
+	.hide-in-mobile {
+	 	display: flex;
+	 }	
+
+	 .for-mobile-only {
+	 	display: none;
+	 }
+
+	 .registration-form label {
+		display: inline-block;
+	}
+
+	.registration-form input {
+		width: 60vw;
+	}
+
+	.field {
+		display: flex;
+		flex-direction: row;
+		justify-content:  space-between;
+		align-items: center;
+	}
+
+	.terms-and-submit-container {
+		gap: 1rem;
+	}
+
+    ::-webkit-input-placeholder {
+	    color:var(--white-clr);
+	    }
+
+    :-moz-placeholder {
+	    color:var(--white-clr);
+	    }
+
+    ::-moz-placeholder {
+	    color:var(--white-clr);
+	    }
+
+    :-ms-input-placeholder {  
+	    color:var(--white-clr);
+	    }   
+    
+}
+
+ 

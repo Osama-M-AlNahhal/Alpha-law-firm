@@ -1,0 +1,3 @@
+card1{name='اسم الكتاب الاول'&imageName='x'&description='كتاب عن كذا وكذا'}
+card2{name='اسم الكتاب الثاني'&imageName='y'&description='كتاب عن كذا وكذا'}
+card3{name='اسم الكتاب الثالث'&imageName='z'&description='كتاب عن كذا وكذا'}

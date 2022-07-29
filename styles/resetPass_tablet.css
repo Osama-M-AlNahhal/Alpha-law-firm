@@ -1,0 +1,12 @@
+@media only screen and (min-width: 600px) {
+	.reset-form {
+		padding: 3rem;
+		padding-bottom: 5rem;
+		border-radius: 18px;
+	}
+	.back-btn-container {
+		top: 0.5rem;
+		right: 0.5rem;
+	}
+
+}

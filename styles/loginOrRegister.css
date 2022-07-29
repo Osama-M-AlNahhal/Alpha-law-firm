@@ -1,0 +1,101 @@
+html {
+	overflow: hidden;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+
+
+	max-width: 100%;
+	overflow-x: revert;
+
+	animation: ease-in-out;
+}
+
+.login-or-register {
+	width: 100%;
+	height: 37rem;
+	background-color: #191919;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.login-items {
+	width: 100%;
+	padding: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.illustration {
+	width: 200px;
+	height: 200px;
+}
+
+.login-buttons {
+	width: 18rem;
+	background-color: #2d2d2d;
+	border-radius: 100px;
+	height: 3rem;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+
+	padding-right: 0rem;
+	padding-left: 0rem;
+
+	z-index: 1;
+
+}
+
+.login-buttons a {
+	text-decoration: none;
+	color: #fff;
+	z-index: 3;
+}
+.login-buttons a:visited {
+	text-decoration: none;
+	color: #fff;
+	z-index: 3;
+}
+.login-buttons a:hover {
+	text-decoration: none;
+	color: #fff;
+	z-index: 3;
+}
+
+.login-buttons a:active {
+	text-decoration: none;
+	color: #fff;
+	z-index: 3;
+}
+
+.new-account-button {
+	margin-left: 1rem;
+}
+
+.selected-button-area {
+	border-radius: 100px;
+	width: 9.5rem;
+	height: 3rem;
+	position: absolute;
+	left: 9rem;
+	background-color: var(--light-clr);
+	z-index: 2;
+}

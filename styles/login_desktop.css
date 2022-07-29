@@ -1,0 +1,64 @@
+@media only screen and (min-width: 768px) {
+
+	.login-container {
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 0;
+		padding-right: 2rem;
+
+		width: 100vw;
+		overflow: hidden;
+	}
+
+	.login-image-container {
+		width: 50vw;
+		height: 95vh;
+		display: inline-block;
+		object-fit: fill;
+
+		padding: 0;
+		border-radius: 12px;
+
+	}
+
+	.login-image-container > img {
+		object-fit: cover;
+	    width: 44vw;
+	    height: 95vh;
+
+	    border-radius: 12px;
+
+	}
+
+	.login-form-container {
+		width: 50vw;
+		margin-left: 2rem;
+	}
+
+
+	.login-info-input {
+		width: inherit;
+	}
+
+	.login-info-input > input {
+		width: inherit;
+		border-radius: 12px;
+	}
+
+	.password-input-container {
+		width: 100%;
+	}
+
+	.login-btn {
+		width: inherit;
+	}
+
+	.alt-login-methods-title::before {
+		width: 15vw;
+	}
+
+	.alt-login-methods-title::after {
+		width: 15vw;
+	}
+}

@@ -1,0 +1,156 @@
+html, body {
+	direction: rtl;
+	font-family:'Cairo', 'Tajawal', 'Amiri', sans-serif;
+}
+input, select, textarea, button{
+    font-family:inherit;
+}
+
+h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+.page-container {
+	width: 100%;
+	height: 100%;
+}
+
+.card-container {
+	width: 100%;
+	height: 100%;
+}
+
+.form-side-container {
+	width: 100%;
+	height: 100%;
+
+	background: var(--dark-clr);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+
+	padding: 3rem;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 1rem;
+}
+
+.registration-form {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	gap: 1rem;
+}
+
+.registration-form label {
+	display: none;
+}
+
+.registration-form input {
+
+    width: 80vw;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: right;
+    direction: rtl;
+    padding-right: 2rem;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 0;
+
+}
+
+.field{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.double-fields {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 1rem;
+}
+
+.hide-in-mobile {
+	display: none;
+}
+
+.for-mobile-only {
+	display: block;
+}
+
+.terms-and-conditions-container {
+	width: 80vw;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+#policy-label {
+	display: inline-block;
+}
+
+#policy-agreement {
+	width: 1rem;
+	height: 1rem;
+}
+
+.terms-and-submit-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 1rem;
+}
+
+.register-button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 100%;
+}
+
+#register-btn {
+	width: 80vw;
+	max-width: 30rem;
+	background-color: var(--gold-clr);
+	border-radius: 15px;
+
+	text-align: center;
+
+	border: 0;
+	padding: 0;
+
+    height: 3.5rem;
+    line-height: 3.5rem;
+    direction: rtl;
+}
+
+

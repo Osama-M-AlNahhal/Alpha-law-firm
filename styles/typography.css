@@ -1,0 +1,58 @@
+html, body {
+    font-family: 'Cairo', 'Tajawal', 'Amiri', sans-serif;
+    font-weight: 100;
+
+    /* 300, 400, 700, 900         Almarai
+    400, 700         Amiri 
+    200 - 900         Cairo
+    400         Gulzar
+    200 - 900         Tajawal */
+}
+.font-xsm {
+    font-size: 0.75rem;
+}
+
+.font-sm {
+    font-size: 1rem;
+}
+.font-sm-md {
+    font-size: 2rem;
+}
+.font-md {
+    font-size: 3rem;
+}
+.font-lg {
+    font-size: 4rem;
+}
+.font-xlg {
+    font-size: 5rem;
+}
+.font-xxlg {
+    font-size: 6rem;
+}
+
+.font-thin { 
+    font-weight: 200;
+}
+.font-normal {
+    font-weight: 400;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-bolder {
+    font-weight: 900;
+}
+
+.white-text {
+    color: #ffffff;
+}
+.light-text {
+    color: var(--xtra-light-clr);
+}
+.golden-text {
+    color: var(--gold-clr);
+}
+.dark-text {
+    color: var(--dark-clr);
+}

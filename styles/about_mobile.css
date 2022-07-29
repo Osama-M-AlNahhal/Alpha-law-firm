@@ -1,0 +1,110 @@
+.hero {
+	height: 35rem;
+}
+
+.about-us {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	padding: 2.5rem;
+	background-color: var(--dark-clr);
+	
+}
+
+.hr-lines{
+  position: relative;
+  max-width: 10rem;
+  text-align: center;
+}
+
+.hr-lines:before {
+    content: " ";
+    height: 2px;
+    width: 25vw;
+    background: var(--light-clr);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100px;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 2px;
+    width: 25vw;
+    background: var(--light-clr);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 100px;
+}
+
+.meet-the-team {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+	padding: 2rem;
+
+	background-color: var(--light-clr);
+	
+}
+
+.team-member-container {
+	width: 100%;
+}
+
+.team-member {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+
+	gap: 1rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+
+.team-member p {
+	margin: 0;
+}
+.team-member h3 {
+	margin: 0;
+}
+.team-member h4 {
+	margin: 0;
+}
+
+.member-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	gap: 0rem;
+}
+
+.member-img {
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+	border-radius: 50%;
+
+	margin: 0;
+}
+
+.member-autobiography {
+	max-width: 35rem;
+}
